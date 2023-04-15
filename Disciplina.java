@@ -1,6 +1,16 @@
 
 public class Disciplina {
 	String nome;
+	String nota;
+
+	public String getNota() {
+		return nota;
+	}
+
+	public void setNota(String nota) {
+		this.nota = nota;
+	}
+
 	Disciplina proximo;
 
 	public String getNome() {
