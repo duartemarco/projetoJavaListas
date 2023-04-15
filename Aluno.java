@@ -1,19 +1,21 @@
 
 public class Aluno {
-	String nome;
 	String rgm;
-	
-	public String getNome() {
-		return nome;
+	ListaEncadeada disciplinas;
+
+	public ListaEncadeada getDisciplinas() {
+		return disciplinas;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+
+	public void setDisciplinas(ListaEncadeada disciplinas) {
+		this.disciplinas = disciplinas;
 	}
+
 	public String getRgm() {
 		return rgm;
 	}
+
 	public void setRgm(String rgm) {
 		this.rgm = rgm;
 	}
 }
-
