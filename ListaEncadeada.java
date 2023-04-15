@@ -39,7 +39,7 @@ public class ListaEncadeada {
 		Disciplina temp = primeiro;
 		if (!estaVazia()) {
 			for (int i = 0; i < tamanho; i++) {
-				System.out.println("Disciplina " + i + " | nome: " + temp.nome);
+				System.out.println("Nome: " + temp.nome + " | Nota: " + temp.nota);
 				temp = temp.proximo;
 			}
 		}
